@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: #20063B;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  border: none;
+}
+
+.container{
+  height: 295px;
+  width: 240px;
+  background: #4062BB;
+
+  border-radius: 5px;
+
+  font-family: "Public Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 5px ;
+
+  text-align: center;
+}
+
+.number_container{
+  border-radius: 5px;
+
+  font-family: "Public Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+   
+form input {
+  height: 50px;
+  width: 230px;
+  margin: 5px 0 5px 0;
+
+  border-radius: 5px;
+  border-style: none;
+
+  font-size: 50px;
+  text-align: end;
+}
+form input:focus{
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.411);
+  color: white;
+}
+form input[type = "number"]::-webkit-outer-spin-button,
+form input[type = "number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+.container button{
+  width: 55px;
+  height: 55px;
+
+  margin: 2px;
+  border-radius: 5px;
+  border-style: none;
+  
+  font-family: "Public Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+
+
+  cursor: pointer;
+  background-color: #51178f;
+  color: white;
+}
+
+.container button:focus{
+  background-color: #20063B;
+  color: white;
+
+}
